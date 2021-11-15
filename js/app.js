@@ -42,7 +42,7 @@ const ejercicio1 = (e) => {
     // p1.innerHTML += `<div>${numeroMayor}</div>`;
     // p2.innerHTML += `${numeroMenor}`;
 
-    // metodo for numero mayor, guarda solo el primero
+    // metodo for numero mayor y menor
     let numero = numbers[1];
     for (let i = 0; i < numbers.length; i++) {
         if (numbers[i] > 150) {
@@ -56,15 +56,19 @@ const ejercicio1 = (e) => {
     }
     // console.log(numero);
 
-    // Metodo for numero menor, sin funcionar
-    // let numero = numbers[0];
-    // for (let i = numbers.length-1; i >=0 ; i--) {
-    //     if (numbers[i] > numero) {
-    //         numero = numbers
-    //         console.log(numero);
-    //     }
-    // }
-    // console.log(numero);
+    // Resultado Xurxo
+//     let min, max;
+//     min = max = numbers[0];
+//     for(let numero of numbers) {
+//         if (min > numero) {
+//             min = numero;
+//         }
+//         if (max < numero) {
+//             max = numero;
+//         }
+//     }
+// console.log(`[${numbers}]: Mayor(${max}) - Menor(${min})`);
+
 }
 
 
@@ -92,7 +96,16 @@ const ejercicio2 = (f) => {
     }
     console.log(newArray.join(" "));
 
-
+    // Solución Xurxo
+    // for(let i = 0; i<precios.length; i++) {
+    //     precios[i] = precios[i]*1.25;
+    // }
+    // console.log(precios)
+    // let precios25 = precios.map(
+    // (precio) => {
+    //      return * 1.25;
+    // }
+    // );
 
 }
 
